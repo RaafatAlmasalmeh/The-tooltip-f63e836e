@@ -1,0 +1,19 @@
+
+.icon{
+	position:absolute;
+top: 40px; 
+left: 950px;
+}
+
+.tooltip-content{
+position: absolute;
+top: 80px; 
+left: 510px;
+width: 30%;
+background-color: black;
+color: white;
+display: none;
+}
+.icon:hover + .tooltip-content{
+	display: block;
+}
